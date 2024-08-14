@@ -1,62 +1,59 @@
 .bar{
     position:fixed;
     background-color: white;
-    width:100%;
-
-}
-*{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500;
+    width:100vw;
+    height: 15vh;
+    
 }
 h2{
     display:inline-block;
-}
-.rg{
-    padding-left:30px;
-    font-weight: 400;
+    padding:20px;
+    font-weight: 300;
     letter-spacing: 4px;
-    font-size:larger;
 }
-.mg{
-    padding-left:30px;
-    font-weight: bold;
-    letter-spacing: 4px;
-
+.sub-1, .sub-2{
+    display:inline-block;
+}
+.sub-1{
+    position:absolute;
+    left:25px;
+}
+.sub-2{
+    position: absolute;
+    right:10px;
 }
 body{
     margin:0px;
 }
-img{
-    width:96vw;
-    margin:20px;
-
+*{
+    font-family:Arial, Helvetica, sans-serif;
 }
-.kg{
-    padding-left:20px;
-    padding-right:850px;
-    letter-spacing: 4px;
-    font-weight: 400;
-    font-size:larger;
-
-
-}
-.main{
-    display:inline-block;
-    padding:10px 20px;
-    background-color:rgb(20,20,20);
-    color:white;
-    font-size: 40px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.comp{
-    position:absolute;
-    top:50%;
-    right:40%;
+main{
+    font-size:xx-large;
 }
 h1{
     display:inline-block;
-    padding:10px;
-    color:white;
-    font-size: 40px;
     letter-spacing: 4px;
+}
+img{
+    padding-left: 70px;
+}
+.comp{
+    position:absolute;
+    top:53%;
+    right:43%;
+    padding:20px;
+}
+.mnin{
+    padding:15px;
+    background-color: rgb(65, 64, 64);
+    letter-spacing: 4px;
+    color:white;
+    
+}
+.mian{
+    color:white;
+    letter-spacing: 4px;
+    font-weight: 300;
+    padding-left:10px;
 }
